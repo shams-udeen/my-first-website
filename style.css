@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+:root{
+    --gold:rgb(216, 185, 4);
+}
+
+.goldenspan{
+    color:var(--gold);
+}
+
+.navigation{
+    background-image:url(./assets/img/hero-bg.jpg);
+    height:100%;
+    color:white;
+    filter: brightness(95%)
+}
+.style{
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+    margin-bottom: 5%;
+    align-items: center;
+}
+.style:hover{
+    border-color: gold;
+}
+.lead{
+    text-align: center;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+.mad{
+    margin: 5%;
+}
+li:hover{
+    color: gold;
+}
+.image2{
+    width: 600px;
+    height:420px;
+    padding-right: 30px;
+}
+.ij{
+    width: 600px;
+    height:480px;
+}
+.servicediv{
+    padding: 80px 20px;
+    border: 1px solid gray;
+    margin: 10px;
+    width:90%;
+}
+
+.servicediv:hover{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+button{
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+button:hover{
+     background-color: gold;
+}
+.size{
+    width:300px;
+    height:200px;
+    margin: 20px
+}
+.size1{
+    width: 400px;
+    height: 500px;
+    margin: 20px
+}   
+.size2{
+    width: 500px;
+    height: 600px;
+    margin: 20px
+}
+.size3{
+    width:400px;
+    height: 300px;
+    margin: 20px
+}
+
+
+
+.size:hover{
+    width:350px;
+    height:250px;
+    margin: 20px;
+    filter: brightness(0.8);
+
+}
+.size1:hover{
+    width: 450px;
+    height: 550px;
+    margin: 20px;
+    filter: brightness(0.8);
+
+}   
+.size2:hover{
+    width: 550px;
+    height: 650px;
+    margin: 20px;
+    filter: brightness(0.8);
+
+}
+.size3:hover{
+    width:450px;
+    height: 350px;
+    margin: 20px;
+    filter: brightness(0.8);
+
+}
+
+
+.footerdiv{
+    width: 90%;
+    color: white;
+}
