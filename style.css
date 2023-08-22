@@ -1,7 +1,7 @@
 *{
     padding:0;
     margin:0;
-    
+    box-sizing: border-box;
 }
 :root{
     --gold:rgb(216, 185, 4);
@@ -67,22 +67,22 @@ button:hover{
      background-color: gold;
 }
 .size{
-    width:300px;
+    width:250px;
     height:200px;
     margin: 20px
 }
 .size1{
-    width: 400px;
+    width: 350px;
     height: 500px;
     margin: 20px
 }   
 .size2{
-    width: 500px;
+    width: 450px;
     height: 600px;
     margin: 20px
 }
 .size3{
-    width:400px;
+    width:350px;
     height: 300px;
     margin: 20px
 }
@@ -122,4 +122,11 @@ button:hover{
 .footerdiv{
     width: 90%;
     color: white;
+}
+ 
+.btn{
+    color: white;
+}
+.btn:hover{
+    color: gold;
 }
